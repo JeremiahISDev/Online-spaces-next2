@@ -1,5 +1,5 @@
-import { Link } from "next/link"
-import { Image } from "next/image"
+import { default as Link } from "next/link"
+import { default as Image } from "next/image"
 function Navigation() {
 	return (
 		<div>
@@ -44,5 +44,3 @@ function Navigation() {
 	)
 }
 export default Navigation;
-export { Link } from "next/link";
-export { Image } from "next/image";

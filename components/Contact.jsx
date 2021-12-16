@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "next/image"
+import { default as Image } from "next/image"
 function Contact() {
   return (
     <div className="contact">
@@ -24,4 +24,3 @@ function Contact() {
 }
 
 export default Contact;
-export { Image } from "next/image";

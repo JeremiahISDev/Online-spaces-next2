@@ -1,5 +1,5 @@
-import { Link } from "next/link"
-import { Image } from "next/image"
+import { default as Link } from "next/link"
+import { default as Image } from "next/image"
 import { LockClosedIcon } from '@heroicons/react/solid'
 function SignIn() {
 return (
@@ -83,5 +83,3 @@ return (
 )
 }
 export default SignIn;
-export { Link } from "next/link";
-export { Image } from "next/image";

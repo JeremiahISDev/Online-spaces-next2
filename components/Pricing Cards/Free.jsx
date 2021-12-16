@@ -1,4 +1,4 @@
-import { Link } from "next/link"
+import { default as Link } from "next/link"
 function Free() {
     return (
         
@@ -74,4 +74,3 @@ function Free() {
 }
 
 export default Free;
-export  { Link } from "next/link";

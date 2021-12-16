@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "next/image"
+import { default as Image } from "next/image"
 function About() {
   return (
     <div className="about">
@@ -25,4 +25,3 @@ function About() {
 }
 
 export default About;
-export { Image } from "next/image";

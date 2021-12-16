@@ -1,4 +1,4 @@
-import {Navigation, Footer} from "./index.js";
+import { Navigation , Footer } from "./index.js";
 
 function Layout({...pageProps})
 {
