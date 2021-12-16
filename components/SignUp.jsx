@@ -101,5 +101,5 @@ function SignUp() {
   )
 }
 export default SignUp;
-export default Link;
-export default Image;
+export Link;
+export Image;

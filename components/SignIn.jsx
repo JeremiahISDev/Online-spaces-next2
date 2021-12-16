@@ -83,5 +83,5 @@ return (
 )
 }
 export default SignIn;
-export default Link;
-export default Image;
+export Link;
+export Image;

@@ -24,4 +24,4 @@ function Contact() {
 }
 
 export default Contact;
-export default Image;
+export Image;
