@@ -73,4 +73,4 @@ function Free() {
     )
 }
 
-export default Free
+export default Free;

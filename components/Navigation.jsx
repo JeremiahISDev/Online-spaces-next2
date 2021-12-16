@@ -1,6 +1,6 @@
 import { Link } from "next/link"
 import { Image } from "next/image"
-export default function Navigation() {
+function Navigation() {
 	return (
 		<div>
 			<nav className="bg-white dark:bg-gray-800  shadow ">
@@ -43,3 +43,4 @@ export default function Navigation() {
 
 	)
 }
+export default Navigation;
