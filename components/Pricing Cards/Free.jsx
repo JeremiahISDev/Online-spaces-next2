@@ -74,4 +74,4 @@ function Free() {
 }
 
 export default Free;
-export  { Link };
+export  { Link } from "next/link";

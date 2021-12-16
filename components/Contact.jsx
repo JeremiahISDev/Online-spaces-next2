@@ -24,4 +24,4 @@ function Contact() {
 }
 
 export default Contact;
-export { Image };
+export { Image } from "next/image";
