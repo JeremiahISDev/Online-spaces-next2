@@ -1,37 +1,38 @@
+import { Link } from "next/link"
 export default function Navigation() {
 	return (
 		<div>
-			<nav class="bg-white dark:bg-gray-800  shadow ">
-				<div class="max-w-7xl mx-auto px-8">
-					<div class="flex items-center justify-between h-16">
-						<div class="w-full justify-between flex items-center">
-							<a class="flex-shrink-0" href="/">
-								<img class="h-12 w-12" src="../assets/Logo.png" alt="Online Spaces" />
-							</a>
-							<div class="hidden md:block">
-								<div class="ml-10 flex items-baseline space-x-4">
-									<a class="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/#">
+			<nav className="bg-white dark:bg-gray-800  shadow ">
+				<div className="max-w-7xl mx-auto px-8">
+					<div className="flex items-center justify-between h-16">
+						<div className="w-full justify-between flex items-center">
+							<Link href="/"><a className="flex-shrink-0">
+								<img className="h-12 w-12" src="../assets/Logo.png" alt="Online Spaces" />
+							</a></Link>
+							<div className="hidden md:block">
+								<div className="ml-10 flex items-baseline space-x-4">
+									<Link href="/"><a className="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
 										Home
-                            </a>
-									<a class="text-gray-800 dark:text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/Pricing">
+                            </a></Link>
+									<Link href="/Pricing"><a className="text-gray-800 dark:text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
 										Pricing
-                            </a>
-									<a class="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/contact">
+                            </a></Link>
+									<Link href="/contact"><a className="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
 										Contact
-                            </a>
-									<a class="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/aboutus">
+                            </a></Link>
+									<Link href="/aboutus"><a className="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
 										About Us
-                            </a>
-									<a class="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/signup">
-										<button class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-purple-600 rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-purple-200">
+                            </a></Link>
+									<Link href="/signup"><a className="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+										<button className="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-purple-600 rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-purple-200">
 											Try One Free Meeting!
                                 </button>
-									</a>
+									</a></Link>
 								</div>
 							</div>
 						</div>
-						<div class="block">
-							<div class="ml-4 flex items-center md:ml-6">
+						<div className="block">
+							<div className="ml-4 flex items-center md:ml-6">
 							</div>
 						</div>
 					</div>
