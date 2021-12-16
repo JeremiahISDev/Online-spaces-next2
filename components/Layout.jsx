@@ -1,6 +1,6 @@
 import {Navigation, Footer} from "./index.js";
 
-function Layout({...pageProps})
+function Layout({pageProps})
 {
   return(
     <>
