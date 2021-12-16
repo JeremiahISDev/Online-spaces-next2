@@ -74,3 +74,4 @@ function Free() {
 }
 
 export default Free;
+export default Link;

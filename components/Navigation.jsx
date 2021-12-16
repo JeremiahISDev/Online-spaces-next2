@@ -44,3 +44,5 @@ function Navigation() {
 	)
 }
 export default Navigation;
+export default Link;
+export default Image;
