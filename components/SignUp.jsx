@@ -1,4 +1,5 @@
 import { Link } from "next/link"
+import { Image } from "next/image"
 import { LockClosedIcon } from '@heroicons/react/solid'
 export default function SignUp() {
   return (
@@ -6,7 +7,7 @@ export default function SignUp() {
       <div className="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-md w-full space-y-8">
           <div>
-            <img
+            <Image
               className="mx-auto h-44 w-auto"
               src="../assets/Logo.png"
               alt="Online Spaces"
