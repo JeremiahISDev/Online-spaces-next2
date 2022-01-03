@@ -6,9 +6,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Online Spaces</title>
+        <title>{"Online Spaces"}</title>
       </Head>
-
     </div>
-  )
+  );
 }
