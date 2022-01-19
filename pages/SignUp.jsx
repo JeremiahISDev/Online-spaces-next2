@@ -22,9 +22,8 @@ function SignUp() {
             <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Create An Account</h2>
             <p className="mt-2 text-center text-sm text-gray-600">
               Or{' '}
-              <Link href="/SignIn"><a href="/SignIn" className="font-medium text-indigo-600 hover:text-indigo-500">
-                Sign In
-              </a></Link>
+              <Link href="/SignIn" className="font-medium text-indigo-600 hover:text-indigo-500">
+                Sign In</Link>
             </p>
           </div>
           <form className="mt-8 space-y-6" action="/SignUp" method="POST" onSubmit={handleSubmit(onSubmit)}>
