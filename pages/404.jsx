@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 function Error() {
   return (
     <div
@@ -24,10 +26,10 @@ function Error() {
         The page you’re looking for doesn’t exist.
       </p>
 
-      <a
+      <Link
         href="/"
         className="px-6 py-2 text-sm font-semibold text-blue-800 bg-blue-100"
-        >Go home</a
+        >Go home</Link
       >
     </div>
   </div>
