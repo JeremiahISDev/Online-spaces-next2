@@ -1,26 +1,33 @@
 import { default as Link } from "next/link"
 import { default as Image } from "next/image"
 import { LockClosedIcon } from '@heroicons/react/solid'
+import { useForm } from "react-hook-form";
+
 function SignUp() {
+  var { register, errors, handleSubmit } = useForm();
+  const onSubmit = (data) => console.log({ data });
+  const ErrorMessage = ({ message }) => (
+    <p className="text-sm px-3 mt-1 text-red-500 inline-block">{message}</p>
+  );
   return (
-    <>
-      <div className="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div>
+      <div className="flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-md w-full space-y-8">
           <div>
-            <Image
+            <img
               className="mx-auto h-44 w-auto"
-              src="../assets/Logo.png"
+              src="/assets/Logo.png"
               alt="Online Spaces"
             />
             <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Create An Account</h2>
             <p className="mt-2 text-center text-sm text-gray-600">
               Or{' '}
-              <Link href="/signin"><a href="/signin" className="font-medium text-indigo-600 hover:text-indigo-500">
+              <Link href="/SignIn"><a href="/SignIn" className="font-medium text-indigo-600 hover:text-indigo-500">
                 Sign In
               </a></Link>
             </p>
           </div>
-          <form className="mt-8 space-y-6" action="/SignUp" method="POST">
+          <form className="mt-8 space-y-6" action="/SignUp" method="POST" onSubmit={handleSubmit(onSubmit)}>
             <input type="hidden" name="remember" defaultValue="true" />
             <div className="rounded-md shadow-sm -space-y-px">
               <div>
@@ -33,12 +40,18 @@ function SignUp() {
                   type="email"
                   autoComplete="email"
                   required
-                  oninvalid="setCustomValidity('Enter A Valid Email Address')"
-                  onvalid="setCustomValidity('')"
                   className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                   placeholder="Email Address"
-                />
+                  ref={{
+                    register({
+                      required: "Email is required.",
+                      pattern: {
+                        value: /^ [a - z0 -9._ % +-] +@[a-z0-9.-]+\.[a-z]{2,4}$/,
+                message: "Please enter a valid email"
+                }}}}}
+              />
               </div>
+              {errors.email && <ErrorMessage message={errors.email.message} />}
               <div>
                 <label htmlFor="username" className="sr-only">
                   Username
@@ -47,7 +60,7 @@ function SignUp() {
                   id="username"
                   name="username"
                   type="username"
-                  autoComplete="username"
+                  autoComplete="name"
                   required
                   className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                   placeholder="Username"
@@ -97,7 +110,7 @@ function SignUp() {
           </form>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 export default SignUp;

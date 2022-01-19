@@ -2,10 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer">
-      <footer className="py-3 fixed-bottom bg-gray-300">
-        <div className="container">
-          <p className="m-0 text-center text-white-600">
+    <div className="text-center container footer absolute min-w-full py-6 bg-gray-300 bottom-0 inset-x-0">
+      <footer>
+        <div>
+          <p>
             Copyright &copy; Online Spaces 2022
           </p>
         </div>

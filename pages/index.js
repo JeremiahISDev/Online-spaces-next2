@@ -9,5 +9,4 @@ export default function Home() {
         <title>{"Online Spaces"}</title>
       </Head>
     </div>
-  );
-}
+  )};
