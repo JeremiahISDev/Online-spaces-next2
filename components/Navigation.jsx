@@ -1,7 +1,7 @@
 import Link from "next/link"
 function Navigation() {
 	return (
-		<!-- Begin Inspectlet Asynchronous Code -->
+		
 <script type="text/javascript">
 (function() {
 window.__insp = window.__insp || [];
@@ -11,7 +11,6 @@ if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp 
 setTimeout(ldinsp, 0);
 })();
 </script>
-<!-- End Inspectlet Asynchronous Code -->
 		<div>
 			<nav className="bg-white dark:bg-gray-800  shadow ">
 				<div className="max-w-7xl mx-auto px-8">
