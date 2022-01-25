@@ -43,7 +43,6 @@ function SignUp() {
                   placeholder="Email Address"
               />
               </div>
-              {errors.email && <ErrorMessage message={errors.email.message} />}
               <div>
                 <label htmlFor="username" className="sr-only">
                   Username
