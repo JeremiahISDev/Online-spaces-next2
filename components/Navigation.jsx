@@ -1,16 +1,25 @@
 import { useState } from "react";
 import Link from "next/link";
-
+import Head from "next/head";
 const Navigation = () => {
   const [showNav, setShowNav] = useState(false);
 
   return (
+    <Head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="manifest" href="/assets/site.webmanifest">
+<link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#8800ff">
+<meta name="msapplication-TileColor" content="#603cba">
+<meta name="theme-color" content="#0088ff">
+    </Head>
     <header className="flex items-center p-3 flex-wrap text-white bg-purple-700">
       <div
         id="logo"
         className="lg:text-xl p-2 mr-4 inline-flex items-center font-serif font-bold"
       >
-        <Link href="/">
+        <Link href="/assets/">
         <span>
         <img className="h-10 w-10" src="/assets/Logo.png" alt="Online Spaces" />
         </span>
@@ -39,28 +48,28 @@ const Navigation = () => {
             (showNav ? "" : "hidden")
           }
         >
-          <Link href="/">
+          <Link href="/assets/">
             <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded hover:bg-blue-600">
               Home
             </a>
           </Link>
 
-          <Link href="/About">
+          <Link href="/assets/About">
             <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded hover:bg-blue-600">
               About
             </a>
           </Link>
-          <Link href="/Contact">
+          <Link href="/assets/Contact">
             <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded hover:bg-blue-600">
               Contact Us
             </a>
           </Link>
-          <Link href="/Pricing">
+          <Link href="/assets/Pricing">
             <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded hover:bg-blue-600">
               Pricing
             </a>
           </Link>
-        <Link href="/SignUp"><button className="text-white ml-2 bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 font-bold">
+        <Link href="/assets/SignUp"><button className="text-white ml-2 bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 font-bold">
         Try One Free Meeting!
         </button></Link>
         </div>
