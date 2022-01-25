@@ -1,4 +1,4 @@
-import {Free, PersonalPro, Enterprise} from "./Pricing Cards/index";
+import {Free, PersonalPro, Enterprise} from "../components/Pricing Cards/index";
 export default function Pricing() {
   return (
     <div className="h-screen">
