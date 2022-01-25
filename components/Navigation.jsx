@@ -49,28 +49,28 @@ const Navigation = () => {
             (showNav ? "" : "hidden")
           }
         >
-          <Link href="/assets/">
+          <Link href="/">
             <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded hover:bg-blue-600">
               Home
             </a>
           </Link>
 
-          <Link href="/assets/About">
+          <Link href="/About">
             <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded hover:bg-blue-600">
               About
             </a>
           </Link>
-          <Link href="/assets/Contact">
+          <Link href="/Contact">
             <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded hover:bg-blue-600">
               Contact Us
             </a>
           </Link>
-          <Link href="/assets/Pricing">
+          <Link href="/Pricing">
             <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded hover:bg-blue-600">
               Pricing
             </a>
           </Link>
-        <Link href="/assets/SignUp"><button className="text-white ml-2 bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 font-bold">
+        <Link href="/SignUp"><button className="text-white ml-2 bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 font-bold">
         Try One Free Meeting!
         </button></Link>
         </div>
