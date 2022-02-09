@@ -1,12 +1,11 @@
 import '../styles/globals.css'
-import { Navigation , Footer } from "../components";
+import { Navigation } from "../components";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
     <Navigation/>
       <Component {...pageProps} />
-    <Footer/>
     </>
   );
 }

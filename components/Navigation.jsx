@@ -15,14 +15,14 @@ const Navigation = () => {
 <meta name="msapplication-TileColor" content="#603cba"/>
 <meta name="theme-color" content="#0088ff"/>
     </Head>
-    <header className="flex items-center p-3 flex-wrap text-white bg-purple-700">
+    <header className="flex items-center p-2 flex-wrap text-white bg-purple-700">
       <div
         id="logo"
         className="lg:text-xl p-2 mr-4 inline-flex items-center font-serif font-bold"
       >
         <Link href="/assets/">
         <span>
-        <img className="h-10 w-10" src="/assets/Logo.png" alt="Online Spaces" />
+        <img className="h-20 w-20" src="/assets/Logo.png" alt="Online Spaces" />
         </span>
         </Link>
       </div>
