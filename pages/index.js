@@ -8,5 +8,9 @@ export default function Home() {
       <Head>
         <title>{"Online Spaces"}</title>
       </Head>
+      <div>
+        <div className="bg-blue-700">
+        </div>
+      </div>
     </div>
   )};
