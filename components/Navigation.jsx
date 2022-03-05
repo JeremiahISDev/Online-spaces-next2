@@ -22,7 +22,7 @@ const Navigation = () => {
       >
         <Link href="/assets/">
         <span>
-        <img className="h-20 w-20" src="/assets/Logo.png" alt="Online Spaces" />
+        <img className="h-10 w-10" src="/assets/Logo.png" alt="Online Spaces" />
         </span>
         </Link>
       </div>

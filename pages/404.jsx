@@ -10,7 +10,7 @@ function Error() {
     w-full
     h-screen
     bg-gradient-to-tr
-    from-indigo-600
+    from-indigo-600 
     to-blue-400
   "
 >
