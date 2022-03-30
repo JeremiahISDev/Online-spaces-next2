@@ -18,7 +18,7 @@ function Contact() {
         </div>
         <br/>
         <br/>
-        <button type="submit" name="submit" className="h-10 px-5 text-blue-100 transition-colors duration-150 bg-blue-600 rounded-lg focus:shadow-outline hover:bg-blue-700 rounded-full">Submit</button>
+        <button type="submit" name="submit" className="h-10 px-5 text-blue-100 transition-colors duration-150 bg-blue-600 rounded-lg focus:shadow-outline hover:bg-blue-700">Submit</button>
       </form>
       </div>
     </div>
