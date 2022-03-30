@@ -20,7 +20,7 @@ const Navigation = () => {
         id="logo"
         className="lg:text-xl p-2 mr-4 inline-flex items-center font-serif font-bold"
       >
-        <Link href="/assets/">
+        <Link href="/">
         <span>
         <img className="h-10 w-10" src="/assets/Logo.png" alt="Online Spaces" />
         </span>
@@ -66,7 +66,7 @@ const Navigation = () => {
             </a>
           </Link>
           <Link href="/Pricing">
-            <a className="lg:inline-flex lg:w-auto px-3 py-2 rounded hover:bg-blue-600">
+            <a className="lg:inline-flex lg:w-auto px-3 py-2 mb-2 rounded hover:bg-blue-600">
               Pricing
             </a>
           </Link>
