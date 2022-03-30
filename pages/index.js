@@ -13,7 +13,7 @@ export default function Home() {
           <div className="align-center">
             <div className="mb-2 p-2">Online Spaces is the <strong>Perfect Place</strong> to suit all of your needs.</div>
             <div className="flex justify-center">
-              <button className="btn bg-[#4FD3C4] px-4 py-2 rounded-full text-red-800 font-semibold"><Link href="./SignUp">Get Started</Link>
+              <button className="btn bg-[#4FD3C4] px-4 py-2 rounded-full text-red-800 font-semibold w-full"><Link href="./SignUp">Get Started</Link>
               </button>
             </div>
           </div>
