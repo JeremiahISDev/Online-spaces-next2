@@ -4,7 +4,7 @@ function About() {
     <div className="about">
 
             <h1 className="text-center font-bold text-blue-600 text-3xl p-6">About Us</h1>
-            <div className="w-fit border-2 m-4 p-6 border-blue-700 rounded overflow-hidden shadow-lg flex justify-center">
+            <div className="w-fit border-2 m-4 p-6 border-blue-700 rounded overflow-hidden shadow-lg flex justify-center m-4">
         <p className="text-center text-blue-800 font-extrabold"> 
           <div><a href="./assets/Checklist.pdf" download="OnlineSpaces_Team1067_Checklist.pdf">Checklist</a></div>
           <div><a href="./assets/Log.pdf" download="OnlineSpaces_Team1067_Worklog.pdf">Worklog</a></div>
