@@ -1,0 +1,26 @@
+.background {
+  background-color: #1c1c1c;
+  min-width: 100vw;
+  min-height: calc(100vh - 72px);
+}
+
+.person
+{
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+  position: relative;
+  top: 25px;
+}
+
+.img
+{
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+
+.name
+{
+  
+}

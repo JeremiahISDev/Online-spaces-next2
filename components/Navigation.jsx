@@ -65,6 +65,11 @@ const Navigation = () => {
               Contact Us
             </a>
           </Link>
+					<Link href="/Demo">
+            <a className="lg:inline-flex lg:w-auto px-3 py-2 mb-2 rounded hover:bg-blue-600">
+              Demo
+            </a>
+          </Link>
           <Link href="/Pricing">
             <a className="lg:inline-flex lg:w-auto px-3 py-2 mb-2 rounded hover:bg-blue-600">
               Pricing
