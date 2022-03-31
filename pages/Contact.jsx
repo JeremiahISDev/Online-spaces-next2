@@ -5,8 +5,8 @@ function Contact() {
     <div id="Title" className="text-center text-blue-600 font-bold text-[2rem] pb-6">
       <h1>Contact Us</h1>
       </div>
-      <div className="text-center align-center align-items-center justify-center justify-items-center" id="Form-Div">
-      <form method="POST" className="text-center border-2 p-6 w-full">
+      <div className="text-center align-center align-items-center justify-center justify-items-center flex" id="Form-Div">
+      <form method="POST" className="text-center border-2 p-6 w-fit">
         <label htmlFor="email" className="px-4">Email:</label>
         <input type="email" name="email" className="border-2 rounded p-2 mb-4 border-blue-800" placeholder="example@domain.com"/> <br/>
         <label htmlFor="name" className="px-4">Name:</label>
